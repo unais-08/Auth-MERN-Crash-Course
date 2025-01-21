@@ -1,59 +1,33 @@
-<h1 align="center">Advanced Auth Tutorial 🔒 </h1>
+# MERN Authentication Project
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+A simple authentication system built with the MERN (MongoDB, Express.js, React.js, Node.js) stack. The project demonstrates how to implement basic user authentication with registration, login, protected routes, and JWT-based session handling.
 
-[Video Tutorial on Youtube](https://youtu.be/pmvEgZC55Cg)
+---
 
-About This Course:
+## Features
+- User registration and login with validation
+- Password hashing for secure storage (using bcrypt)
+- JWT-based authentication for user sessions
+- Protected routes on the backend and frontend
+- State management for logged-in users
+- Logout functionality to clear sessions
 
--   🔧 Backend Setup
--   🗄️ Database Setup
--   🔐 Signup Endpoint
--   📧 Sending Verify Account Email
--   🔍 Verify Email Endpoint
--   📄 Building a Welcome Email Template
--   🚪 Logout Endpoint
--   🔑 Login Endpoint
--   🔄 Forgot Password Endpoint
--   🔁 Reset Password Endpoint
--   ✔️ Check Auth Endpoint
--   🌐 Frontend Setup
--   📋 Signup Page UI
--   🔓 Login Page UI
--   ✅ Email Verification Page UI
--   📤 Implementing Signup
--   📧 Implementing Email Verification
--   🔒 Protecting Our Routes
--   🔑 Implementing Login
--   🏠 Dashboard Page
--   🔄 Implementing Forgot Password
--   🚀 Super Detailed Deployment
--   ✅ This is a lot of work. Support my work by subscribing to the [Channel](https://www.youtube.com/@asaprogrammer_)
+---
 
-### Setup .env file
+## Technologies Used
+### Backend
+- **Node.js**: Server-side JavaScript runtime
+- **Express.js**: Web framework for building RESTful APIs
+- **MongoDB**: NoSQL database for storing user data
+- **Mongoose**: ODM library for MongoDB
+- **JWT**: JSON Web Token for authentication
+- **bcrypt**: Password hashing
 
-```bash
-MONGO_URI=your_mongo_uri
-PORT=5000
-JWT_SECRET=your_secret_key
-NODE_ENV=development
+### Frontend
+- **React.js**: Frontend library for building user interfaces
+- **React Router**: For navigation and protected routes
+- **Fetch**: For making HTTP requests
+- **Tailwind CSS** (optional): For styling
 
-MAILTRAP_TOKEN=your_mailtrap_token
-MAILTRAP_ENDPOINT=https://send.api.mailtrap.io/
+---
 
-CLIENT_URL= http://localhost:5173
-```
-
-### Run this app locally
-
-```shell
-npm run build
-```
-
-### Start the app
-
-```shell
-npm run start
-```
-
-### I'll see you in the next one! 🚀
